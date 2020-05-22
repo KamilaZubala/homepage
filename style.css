@@ -1,19 +1,41 @@
-.up-and-down {
-    background: #E7D8C9;
+.main-page {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    font: 16px Georgia, sans-serif;
 }
 
-.wall-paint {
-    background: #ECF8F8;
+.main-page__menu-item {
+    display: inline-block;
+    background: #39C643;
+    margin: 30px;
+    width: 150px;
+    height: 50px; 
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
 }
 
-.all-headers {
-    color: blueviolet;
+.main-page__logo {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
 }
 
-#section-main {
-    color: blueviolet;
+.main-page__footer {
+background: #39C643;
+margin-top: 50px;
+border-radius: 10px;
+padding: 20px;
 }
 
-nav a {
-    color: blueviolet;
+a {
+    color: white;
+    text-decoration: none;
 }
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+  }

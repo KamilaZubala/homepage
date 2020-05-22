@@ -1,61 +1,54 @@
 <!DOCTYPE html>
 <html lang="pl">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kaktus na dłoni</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
-</head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
 
-<body class="wall-paint">
-    <header class="up-and-down">
-        <nav>
-            <ul>
-                <li><a href="index.html">Strona główna</a></li>
-                <li><a href="sklep.html">Sklep</a></li>
-                <li><a href="kawiarnia.html">Kawiarnia</a></li>
-                <li><a href="blog.html">Blog</a></li>
-            </ul>
-        </nav>
+  <body class= "main-page">
+    <header id= top>
+      <nav>
+        <div class= "main-page__menu-item"><a href="index.html">Strona główna</a></div>
+        <div class= "main-page__menu-item"><a href="sklep.html">Sklep</a></div>
+        <div class= "main-page__menu-item"><a href="kawiarnia.html">Kawiarnia</a></div>
+        <div class= "main-page__menu-item"><a href="blog.html">Blog</a></div>
+      </nav>
     </header>
 
-    <header id="top" class="all-headers">
-        <h1>KAKTUS NA DŁONI</h1>
-        <p>Kaktusy, kawa i nie tylko</p>
-        <!--Tu będzie logo.-->
+    <header>
+      <img src="cover.png" alt="logo of Kaktus na dłoni">
     </header>
 
     <main>
-
-        <img src="https://cdn.pixabay.com/photo/2018/01/22/12/02/cactus-3098799_1280.jpg" height="480" width="853"
-            alt="akwarela z kaktusami">
-        <br><br>
-
-        <section id="section-main">
-            Witamy na stronie <strong>pierwszej i jedynej na razie w Polsce kaktusiarniokawiarni</strong>! (tak, tak –
-            tego słowa nie ma
-            nawet jeszcze w słownikach – ale skoro klubokawiarnia jest, to czemu ma nie być kaktusiarniokawiarni?)
-            <br><br>
-            Wbrew pozorom do naszego małego, niepozornego lokalu przy ulicy <b>Warszawskie Przedmieście 4</b> w Lublinie
-            zaglądają nie tylko brodaci, brzydzący się komercją przedstawiciele wolnych zawodów. Lubisz kaktusy?
-            <i>Tick.</i>
-            Lubisz dobrą kawę? <i>Tick.</i> Wpadnij do nas, niezależnie od płci, wieku, koloru skóry, wyznania,
-            orientacji
-            seksualnej czy
-            poglądów politycznych.
-            <br><br>
-            Masz sugestie lub pytania? Skontaktuj się z nami!
-        </section>
-
+      <section>
+        <h2>Cześć i czołem!</h2>
+        <p>Witamy na stronie
+        <strong>pierwszej i jedynej na razie w Polsce kaktusiarniokawiarni</strong
+        >! (tak, tak – tego słowa nie ma nawet jeszcze w słownikach – ale skoro
+        klubokawiarnia jest, to czemu ma nie być kaktusiarniokawiarni?)
+        </p>
+        <p>
+        Wbrew pozorom do naszego małego, niepozornego lokalu przy ulicy
+        <b>Warszawskie Przedmieście 4</b> w Lublinie zaglądają nie tylko
+        brodaci, brzydzący się komercją przedstawiciele wolnych zawodów. Lubisz
+        kaktusy?
+        <i>Tick.</i>
+        Lubisz dobrą kawę? <i>Tick.</i> Wpadnij do nas, niezależnie od płci,
+        wieku, koloru skóry, wyznania, orientacji seksualnej czy poglądów
+        politycznych.
+        </p>
+        <p>
+        Masz sugestie lub pytania? <span class="main-page--js">Skontaktuj się z nami!</span><!--uruchamia Outlook czytelnika-->
+        </p>
+      </section>
     </main>
-    <br><br>
 
-
-    <footer id="footer" class="up-and-down">
-        Ta strona powstaje w ramach szkolenia Maćka Korsana WTF: Co ten frontend? <a href="#top">Wróć na górę strony</a>
+    <footer class="main-page__footer">
+      Ta strona powstaje w ramach szkolenia Maćka Korsana WTF: Co ten frontend?
+      <a href="#top">Wróć na górę strony.</a>
     </footer>
-<script src="main.js"></script>
-</body>
-
+    <script src="main.js"></script>
+  </body>
 </html>
