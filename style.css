@@ -1,41 +1,149 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 .main-page {
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
-    font: 16px Georgia, sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  font: 16px Georgia, sans-serif;
 }
 
-.main-page__menu-item {
-    display: inline-block;
-    background: #39C643;
-    margin: 30px;
-    width: 150px;
-    height: 50px; 
-    border-radius: 10px;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 50px;
+.navigation {
+  display: flex;
+  justify-content: space-around;
 }
 
-.main-page__logo {
-    max-width: 100%;
-    max-height: 100%;
-    display: block;
+.navigation__item {
+  background: #39c643;
+  padding-right: 8px;
+  padding-left: 8px;
+  margin: 16px;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
 }
 
-.main-page__footer {
-background: #39C643;
-margin-top: 50px;
-border-radius: 10px;
-padding: 20px;
+.logo {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+
+.footer {
+  background: #39c643;
+  margin-top: 50px;
+  border-radius: 10px;
+  padding: 16px;
+  vertical-align: middle;
+  grid-area: footer;
 }
 
 a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 img {
-    max-width: 100%;
-    max-height: 100%;
-  }
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "article"
+    "footer";
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  font: 16px Georgia, sans-serif;
+}
+
+.article {
+  grid-area: article;
+  margin-bottom: 64px;
+}
+
+.header {
+  grid-area: header;
+}
+
+.shop {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.shop__item--1 {
+  background-image: url(img/koryfantatrans.png);
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  margin: 16px auto;
+  padding: 40px;
+}
+
+.shop__item--2 {
+  background-image: url(img/echinokaktustrans.png);
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  margin: 16px auto;
+  padding: 40px;
+}
+
+.shop__item--3 {
+  background-image: url(img/opuncjatrans.png);
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  margin: 16px auto;
+  padding: 40px;
+}
+
+.shop__item--4 {
+  background-image: url(img/ferocactustrans.png);
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  margin: 16px auto;
+  padding: 40px;
+}
+
+.shop__item--5 {
+  background-image: url(img/akantocalyciumtrans.png);
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  margin: 16px auto;
+  padding: 40px;
+}
+
+.shop__item--6 {
+  background-image: url(img/cefalocereustrans.png);
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  margin: 16px auto;
+  padding: 40px;
+}
+
+.price-button {
+  background: white;
+  border-radius: 16px;
+  width: 70px;
+  height: 30px;
+  padding: 3px;
+  margin: 12px auto;
+}

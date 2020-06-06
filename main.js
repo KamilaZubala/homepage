@@ -1,4 +1,17 @@
-const firstName= 'Kamila';
-const age= 33;
+const name = "Kamila Zubala";
+const age = 33;
 
-console.log (`Hej, jestem właścicielką kaktusiarniokawiarni Kaktus na dłoni. Mam na imię ${firstName} i mam ${age} lata.`)
+function greet(name, age) {
+  console.log(
+    `Witaj, nazywam się ${name} i mam ${age} lata. Jestem właścicielką kaktusiarniokawiarni Kaktus na dłoni.`
+  );
+}
+
+greet(name, age);
+
+function createContent(querySelectorContent, content) {
+  const element = document.querySelector(querySelectorContent);
+  element.innerHTML = content;
+}
+
+createContent(".main-page--js", "Odpowiemy na każdą wiadomość!");
