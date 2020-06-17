@@ -8,36 +8,29 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
 
-  <body class="grid">
-    <header class="header" id="top">
-      <nav class="navigation">
-        <div class="navigation__item">
-          <a href="index.html">Strona główna</a>
-        </div>
-        <div class="navigation__item">
-          <a href="sklep.html">Sklep</a>
-        </div>
-        <div class="navigation__item">
-          <a href="kawiarnia.html">Kawiarnia</a>
-        </div>
-        <div class="navigation__item">
-          <a href="blog.html">Blog</a>
-        </div>
+  <body class="main-page">
+    <header id="top">
+      <nav class="navigation navigation--js">
+        <a class="navigation__item" href="index.html">Strona główna</a>
+        <a class="navigation__item" href="sklep.html">Sklep</a>
+        <a class="navigation__item" href="kawiarnia.html">Kawiarnia</a>
+        <a class="navigation__item" href="blog.html">Blog</a>
       </nav>
-      <h1>
-        <img class="logo" src="img/cover.png" alt="logo of Kaktus na dłoni" />
-      </h1>
+      <button class="hamburger hamburger--js">Menu</button>
+      <img class="logo" src="img/cover.png" alt="logo of Kaktus na dłoni" />
     </header>
+
     <main>
-      <h2>Nasz sklep</h2>
-      <article class="article">
+      <article>
+        <h1>Nasz sklep</h1>
         <p>
           Jesteśmy największym w województwie lubelskim dystrybutorem kaktusów
           oraz akcesoriów niezbędnych do ich uprawy i pielęgnacji. Zakupy możesz
           zrobić w naszym sklepie stacjonarnym, tj. kaktusiarniokawiarni, jak i
           online – oferujemy atrakcyjne opcje wysyłki i fachowe doradztwo
           właściciela oraz doświadczonej załogi. Z naszych usług skorzystało już
-          ponad 3000 zadowolonych klientów. Ich opinie możesz przeczytać <b>tutaj</b>.
+          ponad 3000 zadowolonych klientów. Ich opinie możesz przeczytać
+          <b>tutaj</b>.
         </p>
         <p>
           Kaktusy cieszą się w Polsce coraz większą popularnością, ze względu na
@@ -45,47 +38,53 @@
           bardziej wymagających gatunków roślin domowych, kaktusy świetnie sobie
           poradzą, nawet gdy wyjedziesz na 3-tygodniowy urlop lub zapomnisz
           przez kilka dni o podlewaniu. Wiele gatunków pięknie zakwita, ciesząc
-          oko właściciela i jego gości. <b>Nie czekaj więc i zostań z naszą pomocą
-          fanatycznym hodowcą kaktusów!</b>
+          oko właściciela i jego gości.
+          <b
+            >Nie czekaj więc i zostań z naszą pomocą fanatycznym hodowcą
+            kaktusów!</b
+          >
         </p>
       </article>
 
-      <article class="shop">
-        <div class="shop__item shop__item--1">
-          <b>Koryfanta</b> – popularny kaktus do uprawy w mieszkaniach, ma
-          kuliste przekrój i ciernie zebrane w kępki. Kwitnie na żółto lub
-          różowo.
-          <div class="price-button"><b>12 PLN</b></div>
+      <section>
+        <h2>Oferta kaktusów</h2>
+        <div class="shop">
+          <p class="shop__item shop__item--1">
+            <b>Koryfanta</b> – popularny kaktus do uprawy w mieszkaniach, ma
+            kuliste przekrój i ciernie zebrane w kępki. Kwitnie na żółto lub
+            różowo.
+            <button class="price-button"><b>12 PLN</b></button>
+          </p>
+          <p class="shop__item shop__item--2">
+            <b>Echinokaktus Grusona</b> – żartobliwie nazywany „fotelem
+            teściowej” 😉 Ta okrągła roślina o długich, kremowych cierniach
+            osiąga nawet do 1 m średnicy!
+            <button class="price-button"><b>18 PLN</b></button>
+          </p>
+          <p class="shop__item shop__item--3">
+            <b>Opuncja drobnokolczasta</b> – oryginalny wygląd roślina ta
+            zawdzięcza łodydze złożonej z płaskich, członowatych elementów. Dla
+            odważnych – jej ciernie mogą dotkliwie pokłuć!
+            <button class="price-button"><b>25 PLN</b></button>
+          </p>
+          <p class="shop__item shop__item--4">
+            <b>Ferocactus latispinus</b> – kaktus ten urzeka cierniami w pięknym
+            czerwonawym kolorze.
+            <button class="price-button"><b>18 PLN</b></button>
+          </p>
+          <p class="shop__item shop__item--5">
+            <b>Akantokalycium</b> – ten kaktus pochodzi z Argentyny i w naturze
+            osiąga nawet do 50 cm wysokości. Latem kwitnie na różowo.
+            <button class="price-button"><b>36 PLN</b></button>
+          </p>
+          <p class="shop__item shop__item--6">
+            <b>Cefalocereus</b> – pochodzi z Meksyku. Swoją nazwę zwyczajową,
+            „głowa starca” zawdzięcza długim, cienkim cierniom, wijącym się jak
+            włosy.
+            <button class="price-button"><b>49 PLN</b></button>
+          </p>
         </div>
-        <div class="shop__item shop__item--2">
-          <b>Echinokaktus Grusona</b> – żartobliwie nazywany „fotelem teściowej”
-          😉 Ta okrągła roślina o długich, kremowych cierniach osiąga nawet do 1
-          m średnicy!
-          <div class="price-button"><b>18 PLN</b></div>
-        </div>
-        <div class="shop__item shop__item--3">
-          <b>Opuncja drobnokolczasta</b> – oryginalny wygląd roślina ta
-          zawdzięcza łodydze złożonej z płaskich, członowatych elementów. Dla
-          odważnych – jej ciernie mogą dotkliwie pokłuć!
-          <div class="price-button"><b>25 PLN</b></div>
-        </div>
-        <div class="shop__item shop__item--4">
-          <b>Ferocactus latispinus</b> – kaktus ten urzeka cierniami w pięknym
-          czerwonawym kolorze.
-          <div class="price-button"><b>18 PLN</b></div>
-        </div>
-        <div class="shop__item shop__item--5">
-          <b>Akantokalycium</b> – ten kaktus pochodzi z Argentyny i w naturze
-          osiąga nawet do 50 cm wysokości. Latem kwitnie na różowo.
-          <div class="price-button"><b>36 PLN</b></div>
-        </div>
-        <div class="shop__item shop__item--6">
-          <b>Cefalocereus</b> – pochodzi z Meksyku. Swoją nazwę zwyczajową,
-          „głowa starca” zawdzięcza długim, cienkim cierniom, wijącym się jak
-          włosy.
-          <div class="price-button"><b>49 PLN</b></div>
-        </div>
-      </article>
+      </section>
     </main>
 
     <footer class="footer">
