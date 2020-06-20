@@ -14,7 +14,9 @@ function createContent(querySelectorContent, content) {
   element.innerHTML = content;
 }
 
+if (document.querySelector(".main-page--js")) {
 createContent(".main-page--js", "Odpowiemy na każdą wiadomość!");
+}
 
 const humanOne = {
   name: 'Kamila',
